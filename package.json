@@ -1,6 +1,6 @@
 {
   "name": "next-graphql-handler",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "Create a GraphQL API route that can be used to handle GraphQL queries and mutations",
   "main": "index.js",
   "author": "Jamie Barton",
