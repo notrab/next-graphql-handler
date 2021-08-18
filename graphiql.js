@@ -1,4 +1,4 @@
-export const graphiqlHtml = ({ path }) => `<!DOCTYPE html>
+exports.graphiqlHtml = ({ path }) => `<!DOCTYPE html>
 <html>
   <head>
     <title>GraphiQL</title>

@@ -1,9 +1,9 @@
-import { graphql } from "graphql";
-import { makeExecutableSchema } from "@graphql-tools/schema";
+const { graphql } = require("graphql");
+const { makeExecutableSchema } = require("@graphql-tools/schema");
 
-import { graphiqlHtml } from "./graphiql";
+const { graphiqlHtml } = require("./graphiql");
 
-export const GraphQLHandler = ({ typeDefs, resolvers, ...options }) => {
+exports.GraphQLHandler = ({ typeDefs, resolvers, ...options }) => {
   const schema = makeExecutableSchema({
     typeDefs,
     resolvers,
